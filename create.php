@@ -1,5 +1,5 @@
 <?php
-include 'DB_conn.php';
+include 'db/DB_conn.php';
 
 
 if($_SERVER['REQUEST_METHOD'] == "POST"){

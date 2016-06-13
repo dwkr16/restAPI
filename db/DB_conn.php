@@ -1,7 +1,7 @@
 <?php
-$dsn="mysql:host=localhost;dbname=findingn_developers";
-$username="findingn_dwkr";
-$password="tiger1234512345";
+$dsn="mysql:host=localhost;dbname=geek_blog";
+$username="root";
+$password="tiger";
 
 
  try
@@ -16,7 +16,7 @@ $conn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
   
   }
 
-include 'class.rest.php';
+include 'class/class.rest.php';
 $activity= new REST($conn);
 
 ?>
