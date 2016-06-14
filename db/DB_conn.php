@@ -1,4 +1,11 @@
 <?php
+/*
+Author: Diwakar Kumar
+Website: http://stunet.in
+Email:dwkr16@gmail.com
+
+*/
+
 $dsn="mysql:host=localhost;dbname=geek_blog";
 $username="root";
 $password="tiger";
